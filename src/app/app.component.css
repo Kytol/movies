@@ -1,0 +1,35 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  background: var(--gray-400);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.movie-card h2 {
+  font-size: 1.5rem;
+  color: var(--gray-900);
+}
+
+.movie-card p {
+  margin: 0.5rem 0;
+  color: var(--gray-700);
+}
+
+.movie-card a {
+  color: var(--bright-blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.movie-card a:hover {
+  text-decoration: underline;
+}
